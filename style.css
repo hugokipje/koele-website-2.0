@@ -1,0 +1,10 @@
+h1 {
+	font-size: 50px;
+	color: blue;
+}
+.piemel a{
+	transition: top 200ms ease;
+}
+.piemel a:hover{
+	top:5px;
+}
