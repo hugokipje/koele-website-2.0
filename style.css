@@ -1,11 +1,13 @@
-linkjes a{
-	transition: top 200ms ease;
+linkjes a {
+  transition: top 200ms ease;
 }
-.linkjes a:hover{
-	top:5px;
+
+.linkjes a:hover {
+  top: 5px;
 }
+
 .titel {
-	text-align: center;
-	font-size: 50px;
-	color: #1E90FF;
+  text-align: center;
+  font-size: 50px;
+  color: #1E90FF;
 }
