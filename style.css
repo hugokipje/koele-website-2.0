@@ -1,10 +1,11 @@
-h1 {
-	font-size: 50px;
-	color: blue;
-}
-.piemel a{
+linkjes a{
 	transition: top 200ms ease;
 }
-.piemel a:hover{
+.linkjes a:hover{
 	top:5px;
+}
+.titel {
+	text-align: center;
+	font-size: 50px;
+	color: #1E90FF;
 }
