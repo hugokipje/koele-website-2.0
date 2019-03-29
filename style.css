@@ -9,5 +9,16 @@ linkjes a {
 .titel {
   text-align: center;
   font-size: 50px;
-  color: #1E90FF;
+  color: white;
+  margin: -100px 850px 100px 850px;
+  background-color: #00BFFF;
+}
+
+.plaatje {
+  background-image: url(https://draperanddash.com/wp-content/uploads/2018/03/artificial-intelligence-background-2.jpg);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -60px;
+  padding: 100px 20px 20px 20px;
 }
