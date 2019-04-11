@@ -12,6 +12,7 @@ linkjes a {
   color: white;
   margin: -100px 850px 100px 850px;
   background-color: #00BFFF;
+  background-position: center;
 }
 
 .plaatje {
@@ -21,4 +22,5 @@ linkjes a {
   background-size: cover;
   background-position: center -60px;
   padding: 100px 20px 20px 20px;
+  height: 20px;
 }
