@@ -1,26 +1,11 @@
-linkjes a {
-  transition: top 200ms ease;
+body{
+  font-family:'Work Sans', sans-serif;
+  font-size:15px;
+  line-height:15.5;
+  background-color:##e0e0d1
 }
 
-.linkjes a:hover {
-  top: 5px;
-}
-
-.titel {
-  text-align: center;
-  font-size: 50px;
-  color: white;
-  margin: -100px 850px 100px 850px;
-  background-color: #00BFFF;
-  background-position: center;
-}
-
-.plaatje {
-  background-image: url(https://draperanddash.com/wp-content/uploads/2018/03/artificial-intelligence-background-2.jpg);
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center -60px;
-  padding: 100px 20px 20px 20px;
-  height: 20px;
+.container{
+  width:80%;
+  margin:auto;
 }
