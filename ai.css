@@ -1,0 +1,22 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: ##e0e0d1
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-image: url("https://draperanddash.com/wp-content/uploads/2018/03/artificial-intelligence-background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: #0015ff 5px solid;
+}
