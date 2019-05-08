@@ -150,13 +150,13 @@ nav{
 	color: #000000;
 	border-top: 5px solid black;
 	background-image: linear-gradient(to bottom, #2886AD, #4FB1D9);
-	height:2000px;
+	height:1000px;
 	z-index:-3;
 }
 
 .tekst{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 40px;
