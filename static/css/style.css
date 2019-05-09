@@ -88,7 +88,7 @@ nav {
 
 @media screen and (max-width:900px) {
   .logo {
-    display: flex;
+    display: inline;
   }
 }
 
@@ -119,7 +119,7 @@ nav {
     display: block;
   }
   .nav-links li a {
-    margin: 40px 0px;
+    margin: 60px 0px;
     display: inline-block;
     padding: 20px;
   }
@@ -159,7 +159,7 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/* Welkom */
+/* Tekst */
 
 .container {
   text-align: center;
@@ -169,6 +169,12 @@ nav {
   background-color: #efefef;
   height: 1000px;
   z-index: -3;
+}
+
+@media screen and (max-width:600) {
+  .container {
+    height: 2000px;
+  }
 }
 
 .tekst {
@@ -184,10 +190,6 @@ nav {
   font-family: 'Orbitron', sans-serif;
 }
 
-.plaatje {
-  margin: 10px 0px;
-}
-
 @media screen and (min-width:1000px) {
   .tekst h1 {
     font-size: 20px;
@@ -201,8 +203,105 @@ nav {
   }
 }
 
+@media screen and (min-width:1200px) {
+  .tekst {
+    top: 500px;
+  }
+  .tekst h1 {
+    font-size: 25px;
+  }
+  .tekst p {
+    font-size: 18.5px;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .tekst {
+    top: 500px;
+  }
+  .tekst h1 {
+    font-size: 30px;
+  }
+  .tekst p {
+    font-size: 22.5px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .tekst {
+    top: 500px;
+  }
+  .tekst h1 {
+    font-size: 15px;
+  }
+  .tekst p {
+    font-size: 10px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .tekst {
+    top: 500px;
+  }
+  .tekst h1 {
+    font-size: 10px;
+  }
+  .tekst p {
+    font-size: 5px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width:675px) {
+  .tekst {
+    top: 550px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .tekst {
+    top: 600px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .tekst {
+    top: 720px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .tekst {
+    top: 900px;
+  }
+}
+
+.tekst h1 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
 .tekst p {
   margin-top: 20px;
-  font-size: 1.3vw;
+  font-size: 15px;
   line-height: 1.6;
+}
+
+span {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 1.5px;
+}
+
+/* Afbeelding 1 */
+
+.plaatje {
+  margin: 30px 0px;
+  width: 100%;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 15px;
 }
