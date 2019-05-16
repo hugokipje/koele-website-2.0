@@ -35,6 +35,7 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 60%;
+  z-index: 30;
 }
 
 .nav-links li {
@@ -66,6 +67,7 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
+  z-index: 30;
 }
 
 .burger div {
@@ -114,6 +116,7 @@ nav {
     transition: transform 0.5s ease-in;
     opacity: 1;
     text-align: center;
+    z-index: 30;
   }
   .nav-links li {
     opacity: 0;
@@ -582,45 +585,47 @@ table {
 }
 
 @media screen and (max-width: 800px) {
-	table th{
-		font-size: 17px;
-	}
-	#left-column{
-		font-size: 17px;
-	}
-	vs-columns{
-		font-size: 10px;
-	}
-	table{
-		height: 800px;
-	}
-	.vs-container{
-		height: 1100px;
-	}
-	.plaatje2{
-		margin-top: 40%;
-	}
-	.vs-footer{
-		top: 100px;
-	}
+  table th {
+    font-size: 17px;
+  }
+  #left-column {
+    font-size: 17px;
+  }
+  vs-columns {
+    font-size: 10px;
+  }
+  table {
+    height: 800px;
+  }
+  .vs-container {
+    height: 1100px;
+  }
+  .plaatje2 {
+    margin-top: 40%;
+  }
+  .vs-footer {
+    top: 100px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-	table th{
-		font-size: 12px;
-	}
-	#left-column{
-		font-size: 12px;
-	}
-	#vs-columns{
-		font-size: 12px;
-	}
-	.vs-container{
-		height: 1000px;
-	}
+  table th {
+    font-size: 12px;
+  }
+  #left-column {
+    font-size: 12px;
+  }
+  #vs-columns {
+    font-size: 12px;
+  }
+  .vs-container {
+    height: 1000px;
+  }
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
 }
 
@@ -643,7 +648,6 @@ table th {
   background-color: #828282;
 }
 
-
 /* Human VS AI Footer */
 
 .vs-footer {
@@ -657,28 +661,29 @@ table th {
 
 /* Formulier */
 
-.about-container{
-	min-height:800px;
-	text-align: center;
-	position: relative;
-	color: #000000;
-	border-top: 5px solid black;
-	background-color: #efefef;
-	z-index: 1;
+.about-container {
+  min-height: 800px;
+  text-align: center;
+  position: relative;
+  color: #000000;
+  border-top: 5px solid black;
+  background-color: #efefef;
+  z-index: 1;
 }
 
-.about-tekst form{
-	margin-top: 800px;
-	border: 3px solid black;
-	border-radius: 10px;
-	padding: 20px 150px 20px 150px;
-	height: 730px;
+.about-tekst form {
+  margin-top: 800px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px 150px 20px 150px;
+  height: 730px;
+  z-index: -1;
 }
 
-@media screen and (max-width: 600px){
-	.about-tekst form{
-		padding: 20px 80px 20px 80px;
-	}
+@media screen and (max-width: 600px) {
+  .about-tekst form {
+    padding: 20px 80px 20px 80px;
+  }
 }
 
 .about-tekst {
@@ -703,7 +708,11 @@ input[type=submit] {
   margin-top: 50px;
 }
 
-input[type=text], select, textarea, input[type=email], input[type=tel]{
+input[type=text],
+select,
+textarea,
+input[type=email],
+input[type=tel] {
   width: 100%;
   padding: 15px;
   border: 1px solid #ccc;
@@ -711,21 +720,20 @@ input[type=text], select, textarea, input[type=email], input[type=tel]{
   resize: vertical;
 }
 
-
 label {
   display: inline-block;
   margin: 17px 0px 17px 0px;
 }
 
 .datalist-holder {
-    padding: 15px;
+  padding: 15px;
 }
 
 .datalist-input {
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 7px;
-	padding: 15px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 15px;
 }
 
 /* About-footer */
