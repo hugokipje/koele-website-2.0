@@ -46,31 +46,33 @@
       <div class="about-box">
         <div class="about-tekst">
           <form>
-            <div class="row">
-              <div class="tekstvraag1">
-                <label for="voornaam">Voornaam</label>
+            <fieldset>
+              <legend>Persoonlijke gegevens</legend>
+              <div class="row">
+                <div class="tekstvraag1">
+                  <label for="voornaam">Voornaam</label>
+                </div>
+                <div class="tekstvraag2">
+                  <input type="text" id "voornaam" name="Voornaam" placeholder="Vul hier uw voornaam in...">
+                </div>
               </div>
-              <div class="tekstvraag2">
-                <input type="text" id "voornaam" name="Voornaam" placeholder="Vul hier uw voornaam in...">
+              <div class="row">
+                <div class="tekstvraag1">
+                  <label for="achternaam">Achternaam</label>
+                </div>
+                <div class="tekstvraag2">
+                  <input type="text" id "achternaam" name="Achternaam" placeholder="Vul hier uw achternaam in...">
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="tekstvraag1">
-                <label for="achternaam">Achternaam</label>
-              </div>
-              <div class="tekstvraag2">
-                <input type="text" id "achternaam" name="Achternaam" placeholder="Vul hier uw achternaam in...">
-              </div>
-            </div>
 
-            <div class="row">
-              <div class="tekstvraag1">
-                <label for="country">Land</label>
-              </div>
-              <div class="tekstvraag2">
-                <div class="datalist-holder">
-                  <input list="country" name="country" class="datalist-input" placeholder="Kies hier uw nationaliteit..." />
-                  <datalist id="country">
+              <div class="row">
+                <div class="tekstvraag1">
+                  <label for="country">Land</label>
+                </div>
+                <div class="tekstvraag2">
+                  <div class="datalist-holder">
+                    <input list="country" name="country" class="datalist-input" placeholder="Kies hier uw nationaliteit..." />
+                    <datalist id="country">
         <option value="Afghanistan" />
         <option value="Albania" />
         <option value="Algeria" />
@@ -311,32 +313,41 @@
         <option value="Zambia" />
         <option value="Zimbabwe" />
     </datalist>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="tekstvraag1">
-                <label for="email">E-Mail</label>
+              <div class="row">
+                <div class="tekstvraag1">
+                  <label for="email">E-Mail</label>
+                </div>
+                <div class="tekstvraag2">
+                  <input type="email" name="emailaddress" placeholder="Vul hier uw emailadres in...">
+                </div>
               </div>
-              <div class="tekstvraag2">
-                <input type="email" name="emailaddress" placeholder="Vul hier uw emailadres in...">
-              </div>
-            </div>
 
-            <div class="row">
-              <div class="tekstvraag1">
-                <label for="phone">Telefoonnummer</label>
+              <div class="row">
+                <div class="tekstvraag1">
+                  <label for="phone">Telefoonnummer</label>
+                </div>
+                <div class="tekstvraag2">
+                  <input type="tel" id="phone" placeholder="Bijv. 6 123 456 78" name="phone" pattern="[6]{1} [0-9]{3} [0-9]{3} [0-9]{2}" required>
+                </div>
               </div>
-              <div class="tekstvraag2">
-                <input type="tel" id="phone" placeholder="Bijv. 6 123 456 78" name="phone" pattern="[6]{1} [0-9]{3} [0-9]{3} [0-9]{2}" required>
+
+              <div class="row">
+                <div class="tekstvraag1">
+                  <label for="`Vraag">Vraag</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Schrijf hier uw vraag op..."></textarea>
+                </div>
               </div>
-            </div>
 
-            <div class="row">
-              <input type="submit" value="Verzenden">
-            </div>
-
+              <div class="row">
+                <input type="submit" value="Verzenden">
+              </div>
+            </fieldset>
           </form>
         </div>
       </div>

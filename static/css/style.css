@@ -754,6 +754,11 @@ table th {
   background-color: #828282;
 }
 
+caption {
+  caption-side: top;
+  margin-bottom: 10px;
+}
+
 /* Human VS AI Footer */
 
 .vs-footer {
@@ -768,7 +773,7 @@ table th {
 /* Formulier */
 
 .about-container {
-  min-height: 800px;
+  min-height: 1000px;
   text-align: center;
   position: relative;
   color: #000000;
@@ -778,18 +783,14 @@ table th {
 }
 
 .about-tekst form {
-  margin-top: 800px;
-  border: 3px solid black;
-  border-radius: 10px;
+  margin-top: 1000px;
   padding: 20px 150px 20px 150px;
-  height: 730px;
+  height: 900px;
   z-index: -1;
 }
 
-@media screen and (max-width: 600px) {
-  .about-tekst form {
-    padding: 20px 80px 20px 80px;
-  }
+fieldset {
+  padding: 20px 150px 20px 150px;
 }
 
 .about-tekst {
