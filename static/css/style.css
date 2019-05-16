@@ -21,7 +21,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   min-height: 8vh;
   background-color: #03425C;
-  z-index: 30;
+  z-index: 1000;
 }
 
 .logo {
@@ -35,7 +35,7 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  z-index: 30;
+  z-index: 1000;
 }
 
 .nav-links li {
@@ -67,7 +67,7 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
-  z-index: 30;
+  z-index: 1000;
 }
 
 .burger div {
@@ -116,7 +116,7 @@ nav {
     transition: transform 0.5s ease-in;
     opacity: 1;
     text-align: center;
-    z-index: 30;
+    z-index: 1000;
   }
   .nav-links li {
     opacity: 0;
@@ -140,7 +140,7 @@ nav {
   display: inline-block;
   padding: 10px;
   width: 50%;
-  z-index: 30;
+  z-index: 1000;
 }
 
 @keyframes navLinkFade {
@@ -772,18 +772,92 @@ caption {
 
 /* Formulier */
 
+.toptekst {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  opacity: 1;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  width: 50%;
+  top: 300px;
+}
+
+.toptekst h1 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.olinul ul {
+  list-style-type: square;
+}
+
+.olinul {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 30%;
+  font-size: 20px;
+}
+
+#remove {
+  list-style-type: none;
+}
+
+#styleupperroman {
+  list-style-type: upper-roman;
+  margin-left: 40px;
+}
+
+.toptekst p {
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
 .about-container {
-  min-height: 1000px;
+  min-height: 1700px;
   text-align: center;
   position: relative;
   color: #000000;
   border-top: 5px solid black;
   background-color: #efefef;
-  z-index: 1;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-container {
+    height: 1800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .about-container {
+    height: 1950px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about-container {
+    height: 2150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-container {
+    height: 2300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about-container {
+    height: 2600px;
+  }
 }
 
 .about-tekst form {
-  margin-top: 1000px;
+  margin-top: 1300px;
   padding: 20px 150px 20px 150px;
   height: 900px;
   z-index: -1;
@@ -798,7 +872,7 @@ fieldset {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
-  z-index: -1;
+  z-index: 30;
   overflow: hidden;
   opacity: 1;
   text-align: center;
@@ -841,6 +915,24 @@ label {
   border: 1px solid #ccc;
   border-radius: 7px;
   padding: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .toptekst {
+    top: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .toptekst {
+    top: 550px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .toptekst {
+    top: 750px;
+  }
 }
 
 /* About-footer */
